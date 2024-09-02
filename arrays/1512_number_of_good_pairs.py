@@ -6,7 +6,6 @@ def goodPairs(nums):
         r=len(nums)-1
         while l<r:
             if nums[l]==nums[r]:
-                print(l,r)
                 counter += 1
             r -= 1
         l += 1
