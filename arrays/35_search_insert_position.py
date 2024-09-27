@@ -8,8 +8,6 @@ def searchInsert(nums, target):
     r= len(nums)-1
     
     while l<=r:
-        print (l)
-        print(r)
         mid = (l+r)//2
         if (target==nums[mid]):
             return mid
